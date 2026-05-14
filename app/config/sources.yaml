@@ -1,0 +1,495 @@
+sources:
+  - name: Коммерсантъ — Экономика
+    url: https://www.kommersant.ru/rss/section-economics.xml
+    site_url: https://www.kommersant.ru/economics
+    type: rss
+    category: economy
+    country: RU
+    language: ru
+    topic_tags: ["finance","economy"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Коммерсантъ — Главные новости
+    url: https://www.kommersant.ru/rss/news.xml
+    site_url: https://www.kommersant.ru
+    type: rss
+    category: news
+    country: RU
+    language: ru
+    topic_tags: ["news"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Ведомости
+    url: https://www.vedomosti.ru/rss/news
+    site_url: https://www.vedomosti.ru
+    type: rss
+    category: economy
+    country: RU
+    language: ru
+    topic_tags: ["finance","business"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: РИА Новости — Экономика
+    url: https://ria.ru/export/rss2/archive/index.xml?rubric=economy
+    site_url: https://ria.ru
+    type: rss
+    category: economy
+    country: RU
+    language: ru
+    topic_tags: ["economy","finance"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: РИА Новости — Мир
+    url: https://ria.ru/export/rss2/archive/index.xml?rubric=world
+    site_url: https://ria.ru
+    type: rss
+    category: world
+    country: RU
+    language: ru
+    topic_tags: ["politics","world"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: ТАСС — Экономика
+    url: https://tass.ru/rss/v2.xml?sections=economy
+    site_url: https://tass.ru
+    type: rss
+    category: economy
+    country: RU
+    language: ru
+    topic_tags: ["finance","economy"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: ТАСС — Мир
+    url: https://tass.ru/rss/v2.xml?sections=world
+    site_url: https://tass.ru
+    type: rss
+    category: world
+    country: RU
+    language: ru
+    topic_tags: ["politics","world"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Московская Биржа — Новости
+    url: https://www.moex.com/export/news.aspx?cat=all&format=rss
+    site_url: https://www.moex.com
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["stocks","finance"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Российская Газета — Экономика
+    url: https://rg.ru/xml/index.xml
+    site_url: https://rg.ru
+    type: rss
+    category: economy
+    country: RU
+    language: ru
+    topic_tags: ["economy","finance"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: OilPrice.com
+    url: https://oilprice.com/rss/main
+    site_url: https://oilprice.com
+    type: rss
+    category: energy
+    country: GLOBAL
+    language: en
+    topic_tags: ["oil","energy"]
+    enabled: true
+    poll_interval_minutes: 10
+
+  - name: Банк России — Новости, интервью, выступления
+    url: https://www.cbr.ru/rss/eventrss
+    site_url: https://www.cbr.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["finance","central_bank"]
+    enabled: true
+    poll_interval_minutes: 10
+
+  - name: Банк России — Пресс-релизы
+    url: https://www.cbr.ru/rss/RssPress
+    site_url: https://www.cbr.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["finance","central_bank","press_release"]
+    enabled: true
+    poll_interval_minutes: 10
+
+  - name: Банк России — Новое на сайте
+    url: https://www.cbr.ru/rss/RssNews
+    site_url: https://www.cbr.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["finance","central_bank","site_updates"]
+    enabled: true
+    poll_interval_minutes: 20
+
+  - name: Минфин России — Новости
+    url: https://minfin.gov.ru/rss_news?lim=50&mod=news
+    site_url: https://minfin.gov.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["finance","government","budget"]
+    enabled: true
+    poll_interval_minutes: 10
+
+  - name: ФНС России — Новости
+    url: https://www.nalog.gov.ru/rn77/news/activities_fts/
+    site_url: https://www.nalog.gov.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["tax","finance"]
+    enabled: false
+    poll_interval_minutes: 20
+
+  - name: Интерфакс — Россия и мир
+    url: https://rss.interfax.ru/interfax.xml
+    site_url: https://www.interfax.ru
+    type: rss
+    category: news
+    country: RU
+    language: ru
+    topic_tags: ["news","politics","business"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Интерфакс — Экономика
+    url: https://rss.interfax.ru/business.xml
+    site_url: https://www.interfax.ru/business/
+    type: rss
+    category: economy
+    country: RU
+    language: ru
+    topic_tags: ["economy","finance","business"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Интерфакс — Финансовый рынок
+    url: https://rss.interfax.ru/finmarket.xml
+    site_url: https://www.interfax.ru/business/
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["markets","bonds","stocks","finance"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Banki.ru — Лента новостей
+    url: https://www.banki.ru/xml/news.rss
+    site_url: https://www.banki.ru/news/
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["banks","deposits","loans","finance"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Banki.ru — Инвестиции
+    url: https://www.banki.ru/xml/investment.rss
+    site_url: https://www.banki.ru/investment/news/
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["investment","stocks","markets"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: РБК — Главные новости
+    url: https://www.rbc.ru/rbcfreenews/newsfeed.rss
+    site_url: https://www.rbc.ru
+    type: rss
+    category: news
+    country: RU
+    language: ru
+    topic_tags: ["news","business","politics"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: РБК — Экономика
+    url: https://rssexport.rbc.ru/rbcnews/news/30/full.rss
+    site_url: https://www.rbc.ru/economics/
+    type: rss
+    category: economy
+    country: RU
+    language: ru
+    topic_tags: ["economy","macro","business"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: РБК — Финансы
+    url: https://rssexport.rbc.ru/rbcnews/news/20/full.rss
+    site_url: https://www.rbc.ru/finances/
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["finance","markets","banks"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: РБК — Общество
+    url: https://rssexport.rbc.ru/rbcnews/news/11/full.rss
+    site_url: https://www.rbc.ru/society/
+    type: rss
+    category: news
+    country: RU
+    language: ru
+    topic_tags: ["news","society"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: РБК — Политика
+    url: https://rssexport.rbc.ru/rbcnews/news/12/full.rss
+    site_url: https://www.rbc.ru/politics/
+    type: rss
+    category: world
+    country: RU
+    language: ru
+    topic_tags: ["politics","world"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Forbes Russia
+    url: https://www.forbes.ru/newrss.xml
+    site_url: https://www.forbes.ru
+    type: rss
+    category: economy
+    country: RU
+    language: ru
+    topic_tags: ["business","companies","finance"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Expert — Новости
+    url: https://expert.ru/rss/
+    site_url: https://expert.ru
+    type: rss
+    category: economy
+    country: RU
+    language: ru
+    topic_tags: ["economy","business","analytics"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Neftegaz.ru
+    url: https://neftegaz.ru/export/rss/
+    site_url: https://neftegaz.ru
+    type: rss
+    category: energy
+    country: RU
+    language: ru
+    topic_tags: ["oil","gas","energy"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: AK&M
+    url: https://www.akm.ru/rss/news.xml
+    site_url: https://www.akm.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["markets","companies","finance"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Финмаркет
+    url: https://www.finmarket.ru/rss/news.asp
+    site_url: https://www.finmarket.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["markets","finance","macro"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Прайм
+    url: https://1prime.ru/export/rss2/index.xml
+    site_url: https://1prime.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["finance","economy","markets"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Прайм — Энергетика
+    url: https://1prime.ru/export/rss2/energy/index.xml
+    site_url: https://1prime.ru/energy/
+    type: rss
+    category: energy
+    country: RU
+    language: ru
+    topic_tags: ["energy","oil","gas"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Sostav
+    url: https://www.sostav.ru/rss/news.xml
+    site_url: https://www.sostav.ru
+    type: rss
+    category: business
+    country: RU
+    language: ru
+    topic_tags: ["media","marketing","business"]
+    enabled: true
+    poll_interval_minutes: 10
+
+  - name: RusBonds — Новости
+    url: https://www.rusbonds.ru/rss/news.xml
+    site_url: https://www.rusbonds.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["bonds","debt","finance"]
+    enabled: true
+    poll_interval_minutes: 10
+
+  - name: Cbonds — Новости
+    url: https://cbonds.ru/news/feed/
+    site_url: https://cbonds.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["bonds","markets","finance"]
+    enabled: true
+    poll_interval_minutes: 10
+
+  - name: Frank Media
+    url: https://frankmedia.ru/feed/
+    site_url: https://frankmedia.ru
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["banks","finance","regulation"]
+    enabled: true
+    poll_interval_minutes: 5
+
+  - name: Frank RG
+    url: https://frankrg.com/feed/
+    site_url: https://frankrg.com
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["banking","retail_banking","analytics"]
+    enabled: true
+    poll_interval_minutes: 10
+
+  - name: РЖД — Новости
+    url: https://company.rzd.ru/ru/9397/rss?type=news
+    site_url: https://company.rzd.ru
+    type: rss
+    category: business
+    country: RU
+    language: ru
+    topic_tags: ["transport","infrastructure","company"]
+    enabled: true
+    poll_interval_minutes: 20
+
+  - name: Газпром — Новости
+    url: https://www.gazprom.ru/rss/
+    site_url: https://www.gazprom.ru
+    type: rss
+    category: energy
+    country: RU
+    language: ru
+    topic_tags: ["gas","energy","company"]
+    enabled: true
+    poll_interval_minutes: 20
+
+  - name: Лукойл — Пресс-релизы
+    url: https://lukoil.ru/rss
+    site_url: https://lukoil.ru
+    type: rss
+    category: energy
+    country: RU
+    language: ru
+    topic_tags: ["oil","energy","company"]
+    enabled: true
+    poll_interval_minutes: 20
+
+  - name: Роснефть — Новости
+    url: https://www.rosneft.ru/news/rss/
+    site_url: https://www.rosneft.ru
+    type: rss
+    category: energy
+    country: RU
+    language: ru
+    topic_tags: ["oil","energy","company"]
+    enabled: true
+    poll_interval_minutes: 20
+
+  - name: Сбер — Пресс-релизы
+    url: https://www.sberbank.com/ru/news-and-media/rss
+    site_url: https://www.sberbank.com/ru/news-and-media/press-releases
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["bank","finance","company"]
+    enabled: true
+    poll_interval_minutes: 20
+
+  - name: ВТБ — Пресс-релизы
+    url: https://www.vtb.ru/about/press/rss/
+    site_url: https://www.vtb.ru/about/press/
+    type: rss
+    category: finance
+    country: RU
+    language: ru
+    topic_tags: ["bank","finance","company"]
+    enabled: true
+    poll_interval_minutes: 20
+
+  - name: МТС — Новости
+    url: https://moskva.mts.ru/about/media-centr/soobshheniya-kompanii/rss
+    site_url: https://moskva.mts.ru/about/media-centr
+    type: rss
+    category: business
+    country: RU
+    language: ru
+    topic_tags: ["telecom","tech","company"]
+    enabled: true
+    poll_interval_minutes: 20
+
+  - name: Яндекс — Новости компании
+    url: https://yandex.ru/company/rss.xml
+    site_url: https://yandex.ru/company/press_releases/
+    type: rss
+    category: business
+    country: RU
+    language: ru
+    topic_tags: ["tech","internet","company"]
+    enabled: true
+    poll_interval_minutes: 20
